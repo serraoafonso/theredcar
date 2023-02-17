@@ -1,0 +1,87 @@
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    #entrada{
+        height: 190px
+    }
+  }
+  
+  /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+  @media only screen and (min-width: 600px) {
+    #entrada{
+        height: 240px
+    }
+        
+  }
+  
+  /*Dispostivos Médios (Tablets deitados, 768px para cima) */
+  @media only screen and (min-width: 768px) {
+    #entrada{
+        height: 285px
+    }
+  }
+  
+  /* Dispostivos Largos (laptops/desktops, 992px para cima) */
+  @media only screen and (min-width: 992px) {
+    #entrada{
+        height: 380px
+    }
+  }
+  
+  /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+  @media only screen and (min-width: 1200px) {
+    #entrada{
+        height: 470px
+    }
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+  display: flex;
+  flex-direction: column;
+}
+#entrada{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  
+}
+#rua{
+   flex: 68%
+}
+#estatua{
+  flex: 32%
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(180, 9, 9);
+    
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+#voltar{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(180, 9, 9);
+}
+#voltar:hover{
+    font-weight: 600; 
+}
+img{
+    border: 1px solid;
+}
+body{
+    background: linear-gradient( #3b80b9, lightblue, aqua);
+}
