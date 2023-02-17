@@ -13,7 +13,7 @@
       font-size: 17px;
     }
     #pre{
-      height: 150px;
+      height: 215px;
     }
     .contacto{display:none}
   }
@@ -45,7 +45,7 @@
         a{
             font-size: 16px;
         }
-        .contacto{display:inline-block}
+        .contacto{display:inline-block;margin-right: 12%}
         h1{
             font-size: 45px;
             margin-left: 3%;
@@ -61,7 +61,7 @@
         a{
             font-size: 18px;
         }
-        .contacto{display:inline-block}
+        .contacto{display:inline-block;margin-right: 12%}
         h1{
             font-size: 50px;
             margin-left: 4%;
@@ -85,10 +85,17 @@
         
     }
     .contacto{
-        display:inline-block
+        display:inline-block;
+        margin-right: 12%
     }
   }
 
+  @media only screen and (min-width: 1400px) {
+    #pre{
+      height: 535px;
+      width: 100%;
+    }
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -107,8 +114,11 @@ a{
 }
 #main{
     flex: 35%;
-    text-align: center;
-    justify-content: center;
+    /*text-align: center;
+    justify-content: center;*/
+    margin-top: -3%;
+   
+    
 
 }
 #menu{
@@ -137,13 +147,11 @@ header{
     
     
 }
-h1{
-    /*margin-left: 6%;
-    margin-top: 20px;
-    font-size: 50px;*/
-    font-family: 'Indie Flower', cursive;
-    color: rgb(180, 9, 9);
-    font-weight: 900;
+.logo{
+    width: 45%;
+    z-index: 6;
+    margin-left: 42%;
+    
     
 }
 section{
